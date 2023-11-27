@@ -1,0 +1,19 @@
+.boddy{
+  background-color: aqua;
+}
+@media print {
+  #root *,
+  .modal-backdrop,
+  .myModal {
+    visibility: hidden;
+  }
+
+  .myModalbody {
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    height: auto;
+  }
+}
